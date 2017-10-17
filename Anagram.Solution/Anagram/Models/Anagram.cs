@@ -44,7 +44,7 @@ namespace Anagram.Models
                     }
                 }
             }
-            if (counter == word.Length)
+            if (counter == word.Length || counter == item.Length)
             {
                 return true;
             }
