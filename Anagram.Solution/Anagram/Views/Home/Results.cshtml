@@ -1,0 +1,10 @@
+@{
+  Layout = "_Layout";
+}
+<h1>THESE CAN BE ANAGRAMMED</h1>
+<ul>
+    @foreach(string word in Model)
+    {
+        <li>@word</li>
+    }
+</ul>

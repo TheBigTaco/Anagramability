@@ -1,0 +1,18 @@
+@{
+  Layout = "_Layout";
+}
+
+
+
+<form action="/results" method="post">
+    <label for="base-word">What word would you like to anagram?</label>
+    <input type="text" name="base-word" id="base-word">
+    <br><br>
+    <label for="list-items">What words would you like to check for anagramability?</label>
+    <div id="anagramability">
+        <input type="text" name="list-items[]">
+        <br>
+    </div>
+    <button type="submit" name="button">submit</button>
+</form>
+<button type="button" name="button" id="addAnagram">Add a new word to list</button>
